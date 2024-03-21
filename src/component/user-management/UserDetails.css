@@ -58,4 +58,15 @@ UserTable.css
   .user-list-container td button:hover {
     background-color: #c82333;
   }
+
+  .header-container {
+    display: flow-root;
+    align-items: center;
+  }
+  .search-bar{
+    width: 20%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
   

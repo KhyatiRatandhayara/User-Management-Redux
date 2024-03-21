@@ -47,7 +47,9 @@ const UserDetails = () => {
     <div>
       <div className="user-list-container">
         <h2>User List</h2>
+        <div className="header-container">
          <input
+         className="search-bar"
             type="text"
             name="query"
             value={searchQuery}
@@ -55,11 +57,14 @@ const UserDetails = () => {
             placeholder="Search by name or email..."
           />
         <button onClick={openModal}>Add User</button>
+        </div>
+
         <table>
           <thead>
             <tr>
               <th>Name</th>
               <th>Email</th>
+              <th>Mobile Number</th>
               <th>Date of Birth</th>
               <th>Actions</th>
             </tr>
@@ -69,6 +74,7 @@ const UserDetails = () => {
               <tr key={user.id}>
                 <td>{user.name}</td>
                 <td>{user.email}</td>
+                <td>{user.mobile}</td>
                 <td>{user.dateOfBirth}</td>
                 <td>
                   <button onClick={() => handleUserEdit(user)}>Edit</button>

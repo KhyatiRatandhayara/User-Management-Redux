@@ -17,9 +17,9 @@
     font-weight: bold;
   }
   
-  input[type="text"],
-  input[type="email"],
-  input[type="date"] {
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="date"] {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
