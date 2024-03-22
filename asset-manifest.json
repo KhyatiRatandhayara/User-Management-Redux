@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/User-Management-Redux/static/css/main.51ab9d98.css",
-    "main.js": "/User-Management-Redux/static/js/main.6d4e94f2.js",
-    "static/js/453.566ab306.chunk.js": "/User-Management-Redux/static/js/453.566ab306.chunk.js",
+    "main.css": "/User-Management-Redux/static/css/main.0ed1e8bf.css",
+    "main.js": "/User-Management-Redux/static/js/main.197bce75.js",
+    "static/js/317.a1cdc6aa.chunk.js": "/User-Management-Redux/static/js/317.a1cdc6aa.chunk.js",
     "index.html": "/User-Management-Redux/index.html",
-    "main.51ab9d98.css.map": "/User-Management-Redux/static/css/main.51ab9d98.css.map",
-    "main.6d4e94f2.js.map": "/User-Management-Redux/static/js/main.6d4e94f2.js.map",
-    "453.566ab306.chunk.js.map": "/User-Management-Redux/static/js/453.566ab306.chunk.js.map"
+    "main.0ed1e8bf.css.map": "/User-Management-Redux/static/css/main.0ed1e8bf.css.map",
+    "main.197bce75.js.map": "/User-Management-Redux/static/js/main.197bce75.js.map",
+    "317.a1cdc6aa.chunk.js.map": "/User-Management-Redux/static/js/317.a1cdc6aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51ab9d98.css",
-    "static/js/main.6d4e94f2.js"
+    "static/css/main.0ed1e8bf.css",
+    "static/js/main.197bce75.js"
   ]
 }
