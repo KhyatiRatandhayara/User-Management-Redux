@@ -36,9 +36,7 @@ const UserModal: FC<UserModalProps> = ({ show, onClose, isAddUser, user }) => {
       <Typography id="modal-modal-title" variant="h6" component="h2">
       {isAddUser ? 'Add User' : 'Edit User'}
       </Typography>
-      <Typography id="modal-modal-description" sx={{ mt: 2 }}>
       {isAddUser ? <AddUser onClose={onClose}/> : <EditUser user={user} onClose={onClose}/>}
-      </Typography>
     </Box>
   </Modal>
   )

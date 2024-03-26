@@ -17,6 +17,7 @@ const AddUser: React.FC<AddUserInterface> = ({onClose}) => {
     email: "",
     mobile: '   ',
     dateOfBirth: "",
+    createdAt: new Date().getTime()
   };
 
   const dispatch = useDispatch();

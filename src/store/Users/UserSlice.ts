@@ -6,6 +6,7 @@ export interface User {
     email: string;
     mobile: string | null;
     dateOfBirth: string;
+    createdAt: number; 
   }
 
 interface UserState {
@@ -42,6 +43,16 @@ const userSlice = createSlice({
     reset(state) {
         state.users = initialState.users;
       },
+    searchUsers(state, action) {
+      const { searchString } = action.payload;
+
+      state.users = state.users.filter(
+        (user: { name: string; email: string }) =>
+          user.name.toLowerCase().includes(searchString?.toLowerCase()) ||
+          user.email.toLowerCase().includes(searchString?.toLowerCase())
+      );
+     
+    }
   },
 });
 
